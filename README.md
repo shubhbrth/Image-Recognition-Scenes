@@ -1,2 +1,11 @@
 # Image-Recognition-Scenes
  The goal of the project is to create Image classsifier using State-of-the-art Method
+
+
+The training data consists of 100 images for each of the 15 scene classes. These are arranged in directories named according to the class name. The test data consists of 2985 images. All the images are provided in JPEG format. All the images are grey-scale, so you don't need to consider colour.
+
+
+For VGG16:
+	Overall accuracy: 0.8596
+	Per class accuracy:
+	bedroom: 0.7155; coast: 0.9000; forest: 0.9649; highway: 0.9062; industrial: 0.6635; insidecity: 0.8221; kitchen: 0.7818; livingroom: 0.7725; mountain: 0.9270; office: 0.9217; opencountry: 0.7968; store: 0.8651; street: 0.9167; suburb: 0.9433; tallbuilding: 0.9336;
